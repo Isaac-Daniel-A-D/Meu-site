@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    color: white;
+}
+
+.container h1 {
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.container .di {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: 100px;
+    border-radius: 20%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    margin-top: 350px;
+}
+
+footer p {
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+
+}
+.footer-content {
+    background-image: url('chao.png');
+    background-size: cover;
+    background-position: center;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+
+body {
+    background: url(back.jpg) no-repeat;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: left center;
+}
+.di {
+    margin-left: 120px;
+    margin-top: 20px;
+}
